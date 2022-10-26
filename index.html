@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TicTaToe</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>TicTacToe</h1>
+</div>
+
+<!--<p>Player <span id="playerTurn"></span>'s turn</p>-->
+
+<button class="button buttonReset" onclick="reset()">Reset</button>
+<button class="button buttonPlayer" onclick="buttonPlayer()">Player <span id="playerTurn"></span>'s turn</button>
+
+
+<table style="width: 600px; height: 600px; font-size: 150px" >
+    <tr style="height: 200px">
+        <th style="width: 200px"><span id="field_7"></span></th>
+        <th style="width: 200px"><span id="field_8"></span></th>
+        <th style="width: 200px"><span id="field_9"></span></th>
+    </tr>
+    <tr style="height: 200px">
+        <th style="width: 200px"><span id="field_4"></span></th>
+        <th style="width: 200px"><span id="field_5"></span></th>
+        <th style="width: 200px"><span id="field_6"></span></th>
+    </tr>
+    <tr style="height: 200px">
+        <th style="width: 200px"><span id="field_1"></span></th>
+        <th style="width: 200px"><span id="field_2"></span></th>
+        <th style="width: 200px"><span id="field_3"></span></th>
+    </tr>
+</table>
+
+</body>
+<script src="script.js"></script>
+</html>
